@@ -1,4 +1,4 @@
-# sitepulsar-ai
+# SitePulsar
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sitepulsar-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sitepulsar.ai/
+SitePulsar provides an Agent Readiness audit platform that scores how findable, readable, and usable a brand is for AI answer engines and autonomous agents. It crawls websites, queries major AI models, analyses structured data, and delivers a 0–100 score across FIND, READ, and USE pillars, offering actionable recommendations for improving AI visibility and agent interaction. The service includes pricing plans, a how‑it‑works guide, and an MCP server for integration.
+
+**Areas:** AI · AgentReadiness · Auditing · SaaS · Analytics
+
+## SitePulsar on APIs.io
+
+Everything profiled for SitePulsar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sitepulsar-ai/](https://apis.io/providers/sitepulsar-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [SitePulsar Audit API](https://apis.io/apis/sitepulsar-ai/sitepulsar-ai-audit-api/) — The Audit API from SitePulsar — 4 operation(s) for audit.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SitePulsar Agentic Access](https://apis.io/agentic-access/sitepulsar-ai/sitepulsar-ai-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [AuditInput](https://apis.io/schemas/sitepulsar-ai/sitepulsar-ai-audit-input/)
+- [AuditResult](https://apis.io/schemas/sitepulsar-ai/sitepulsar-ai-audit-result/)
+- [AuditStarted](https://apis.io/schemas/sitepulsar-ai/sitepulsar-ai-audit-started/)
+- [AuditStatus](https://apis.io/schemas/sitepulsar-ai/sitepulsar-ai-audit-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sitepulsar Ai Context](https://apis.io/jsonld/sitepulsar-ai/sitepulsar-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SitePulsar API Rules](https://apis.io/rules/sitepulsar-ai/sitepulsar-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SitePulsar Authentication](https://apis.io/security/sitepulsar-ai/sitepulsar-ai-authentication/)
+- [SitePulsar Domain Security](https://apis.io/security/sitepulsar-ai/sitepulsar-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SitePulsar Plans Pricing](https://apis.io/plans/sitepulsar-ai/sitepulsar-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sitepulsar.ai/)
+- [Documentation](https://sitepulsar.ai/AGENTS.md)
+- [Pricing](https://sitepulsar.ai/pricing)
+- [Support](https://sitepulsar.ai/contact)
+- [Terms of service](https://sitepulsar.ai/terms)
+- [Privacy policy](https://sitepulsar.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.1** — developing · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 64.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 51.5 |
+
+**Agent readiness 41.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sitepulsar-ai/](https://apis.io/providers/sitepulsar-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SitePulsar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sitepulsar-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
